@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-bottom: 0px !important;
+}
+
+.container-fluid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.0)), url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: left bottom;
+}
+
+.img-slider .col-md-7 {
+    padding-left: 90px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.0)), url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: 100px 360px;
+    background-position: left center;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0px 5px 15px darkgrey;
+}
+
+.carousel-indicators li {
+    background: orange;
+    border-radius: 40px;
+}
+
+.menu h6 {
+    color: orange;
+}
+
+.card-group .card {
+    margin: 20px 25px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px lightgray, -1px -1px 5px lightgray;
+    border: none;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.card img {
+    width: 180px;
+    margin: 20px 0;
+}
+
+.card-footer {
+    border: none;
+    background: white;
+}
+
+.categoris h3 {
+    position: relative;
+}
+
+.categoris h3::before {
+    position: absolute;
+    content: "";
+    left: 15px;
+    bottom: -15px;
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    background: linear-gradient(to right, gold, orange);
+}
+
+.categoris .img {
+    box-shadow: 5px 5px 10px lightgray, -5px -5px 10px lightgray;
+    margin: 20px 0;
+    padding: 40px 50px;
+    width: auto;
+    cursor: pointer;
+}
+
+.categoris .img span {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.categoris .img img {
+    height: 100px;
+    width: 100px;
+}
+
+.img1 {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.img2,
+.img3 {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
