@@ -1,0 +1,1 @@
+# Hot Gadgets is prototype e-commerce website. It is based on bootstrap css framework and shows different products as per input in the design. Future this site is under a planing to develop more with JS and backend as well
